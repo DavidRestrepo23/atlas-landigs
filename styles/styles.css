@@ -55,6 +55,33 @@ header::before {
   background-image: none;
 }
 
+header.header-redis {
+  height: 1050px;
+}
+
+.header-redis::before {
+  content: "";
+  position: absolute;
+  background-image: none;
+}
+
+.form-redis {
+  background-color: #f4f1ee;
+  height: 450px;
+  position: relative;
+}
+
+.form-redis::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/redis/transporte-urbano.jpg");
+  width: 475px;
+  height: 450px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  right:-75px;
+}
+
 .section-top {
   position: relative;
   overflow: hidden;
@@ -382,6 +409,73 @@ footer .container-fluid {
   border-radius: 15px;
 }
 
+.redis-section-3 {
+  background-image: url("../img/webinar/graphic.png");
+  background-repeat: no-repeat;
+  background-position: inherit;
+  height: 1200px;
+  color: #fff;
+}
+
+.redis-section-3 h1 {
+  font-size: 30px;
+}
+
+.redis-section-3 p {
+  font-size: 15px;
+}
+
+.redis-section-3 .section-3-heading {
+  position: relative;
+}
+
+.redis-section-3 .section-3-heading::after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 70px;
+  background-color: #ca1f25;
+  margin: 0 auto;
+  right: 0;
+  left: 0;
+  bottom: -25px;
+}
+
+.redis-section-3 .home-item-box .item-box-card {
+  width: 540px;
+  height: 400px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 33px -19px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 33px -19px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 33px -19px rgba(0, 0, 0, 0.75);
+}
+
+.testimonial-redis-box {
+  background-color: #fff;
+  padding: 50px 30px;
+  -webkit-box-shadow: 0px 2px 33px -19px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 2px 33px -19px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 33px -19px rgba(0, 0, 0, 0.75);
+}
+
+.testimonial-redis-box h5 {
+  color: #197fdc;
+  font-weight: 600;
+  font-size: 21px;
+}
+
+.testimonial-redis-box p {
+  font-size: 14px;
+}
+
+.title-cases {
+  color: #ca1f25;
+  font-weight: 600;
+}
+
 .header-drone .btn-drone {
   text-decoration: none;
   background-color: #fff;
@@ -399,8 +493,8 @@ footer .container-fluid {
 .item-box-card .drone-text {
   text-align: center;
   color: #42495b;
-  font-weight: 300;
-  font-size: 12px;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .carousel-inner .carousel-item .carousel-item-img {
@@ -479,8 +573,6 @@ footer .container-fluid {
   color: #42495b !important;
 }
 
-
-
 .accordion-button.collapsed {
   background: #f5f5f5 !important;
 }
@@ -524,13 +616,11 @@ footer .container-fluid {
   background-position: center;
 }
 
-
 .accordion-button.collapsed h6 {
   font-weight: 600;
   text-align: left;
   color: #656565;
 }
-
 
 .carousel-inner .carousel-item h4 {
   font-size: 18px;
@@ -543,6 +633,34 @@ footer .container-fluid {
 
 .carousel-inner .carousel-item .text-quote {
   font-weight: 600;
+}
+
+.form-header {
+  background-color: #f4f1ee;
+  height: 500px;
+}
+
+.section-2-home.bg-form-redis {
+  background-image: url("../img/redis/transporte-urbano.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  z-index: 1000;
+}
+
+.redis-section-heading {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+}
+
+.redis-section-item-text p {
+  font-weight: 600 !important;
+  font-size: 16px;
+  color: #289bf8;
+}
+
+.redis-h1-section-item-text h1 {
+  color: #ca1f25;
 }
 
 /*Responsive*/
@@ -579,6 +697,14 @@ footer .container-fluid {
     padding: 30px;
   }
 
+  .redis-section-3 {
+    background-image: url("../img/webinar/graphic.png");
+    background-repeat: no-repeat;
+    background-position: inherit;
+    height: 1950px;
+    color: #fff;
+  }
+
   .home-section-3 .home-item-box .item-box-card {
     width: 100%;
   }
@@ -600,6 +726,14 @@ footer .container-fluid {
   nav ul li {
     list-style: none;
     margin-right: 25px;
+  }
+
+  .redis-section-3 {
+    background-image: url("../img/webinar/graphic.png");
+    background-repeat: no-repeat;
+    background-position: inherit;
+    height: 1950px;
+    color: #fff;
   }
 
   .section-3,
