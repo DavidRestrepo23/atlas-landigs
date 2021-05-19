@@ -49,6 +49,12 @@ header::before {
   margin: 0 auto;
 }
 
+.header-drone::before {
+  content: "";
+  position: absolute;
+  background-image: none;
+}
+
 .section-top {
   position: relative;
   overflow: hidden;
@@ -266,8 +272,6 @@ footer .container-fluid {
   height: 275px;
 }
 
-
-
 /*HOME ATLAS*/
 .section-2-home .container {
   background-color: #fff;
@@ -310,7 +314,7 @@ footer .container-fluid {
 
 .benefits-section-item h5 {
   font-size: 16px;
-  color:#289bf8;
+  color: #289bf8;
   font-weight: 600;
 }
 
@@ -322,7 +326,6 @@ footer .container-fluid {
 .benefits-section-item .benefits-section-item-text {
   padding: 0 20px;
 }
-
 
 .home-section-3 {
   background-image: url("../img/webinar/graphic.png");
@@ -372,13 +375,175 @@ footer .container-fluid {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color:#289bf8;
+  color: #289bf8;
 }
 
 .home-section-3 .home-item-box .item-box-card .img img {
   border-radius: 15px;
 }
 
+.header-drone .btn-drone {
+  text-decoration: none;
+  background-color: #fff;
+  padding: 10px 15px;
+  color: #289bf8;
+  transition: 0.5s;
+}
+
+.header-drone .btn-drone:hover {
+  background-color: #ca1f25;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.item-box-card .drone-text {
+  text-align: center;
+  color: #42495b;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.carousel-inner .carousel-item .carousel-item-img {
+  width: 520px;
+}
+
+.carousel-indicators {
+  bottom: -75px !important;
+  align-items: center !important;
+}
+
+.carousel-indicators button {
+  background-color: #c6c7c9 !important;
+  width: 13px !important;
+  height: 13px !important;
+  border-radius: 50%;
+}
+
+.carousel-indicators .active {
+  width: 130px !important;
+  height: 0px !important;
+  border-radius: 20px !important;
+  background-clip: inherit !important;
+  border-top: 3px solid transparent !important;
+  border-bottom: 10px solid transparent !important;
+  background-color: #ca1f25 !important;
+}
+
+.accordion-button {
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-bottom: 0 !important;
+}
+
+.accordion-button span {
+  font-size: 16px;
+}
+
+.collapsed .number-collapse {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 10px 0 0;
+}
+
+.number-collapse {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 10px 0 0;
+}
+.number-collapse span {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -1px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.accordion-collapse {
+  border: 0 !important;
+}
+
+.accordion-body {
+  background-color: #f5f5f5 !important;
+  padding: 40px !important;
+  border-bottom: 1px solid #c6c7c9 !important;
+}
+
+.accordion-body p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #42495b !important;
+}
+
+
+
+.accordion-button.collapsed {
+  background: #f5f5f5 !important;
+}
+
+.accordion-item {
+  border: 0;
+}
+
+.accordion-button:focus {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ca1f25 !important;
+  color: #fff !important;
+}
+
+.accordion-button::after {
+  transform: rotate(270deg) !important;
+  background-size: 18px !important;
+}
+
+.accordion-collapse {
+  position: relative;
+}
+
+.poligon {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../img/arrow-down.png") !important;
+  transform: rotate(360deg) !important;
+  background-size: 18px;
+  background-position: center;
+}
+
+
+.accordion-button.collapsed h6 {
+  font-weight: 600;
+  text-align: left;
+  color: #656565;
+}
+
+
+.carousel-inner .carousel-item h4 {
+  font-size: 18px;
+  color: #42495b;
+}
+
+.carousel-inner .carousel-item p {
+  font-weight: 300;
+}
+
+.carousel-inner .carousel-item .text-quote {
+  font-weight: 600;
+}
 
 /*Responsive*/
 
@@ -406,7 +571,8 @@ footer .container-fluid {
     margin-right: 35px;
   }
 
-  .section-3, .home-section-3 {
+  .section-3,
+  .home-section-3 {
     height: auto;
     background-color: #45b0e2;
     background-image: none;
@@ -416,10 +582,7 @@ footer .container-fluid {
   .home-section-3 .home-item-box .item-box-card {
     width: 100%;
   }
-
 }
-
-
 
 @media (max-width: 567px) {
   header::after {
@@ -439,7 +602,8 @@ footer .container-fluid {
     margin-right: 25px;
   }
 
-  .section-3, .home-section-3 {
+  .section-3,
+  .home-section-3 {
     height: auto;
     background-color: #45b0e2;
     background-image: none;
@@ -449,7 +613,4 @@ footer .container-fluid {
   .home-section-3 .home-item-box .item-box-card {
     width: 100%;
   }
-  
 }
-
-
