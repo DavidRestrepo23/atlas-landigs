@@ -674,6 +674,10 @@ footer .container-fluid {
   color: #ca1f25;
 }
 
+.hs-richtext.hs-main-font-element h1 {
+  line-height: 29pt !important;
+}
+
 /*Responsive*/
 
 /*Header - Nav*/
