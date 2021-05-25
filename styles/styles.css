@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-image: url("../img/webinar/slider_2.png");
+  background-image: url("../img/webinar/slider_1.png");
   background-repeat: no-repeat;
   background-position: top;
   height: 860px;
@@ -36,6 +36,33 @@ header::before {
   margin: 0 auto;
 }
 
+.thankyou-page {
+  background-image: url("../img/backgound.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 1143px;
+  position: relative;
+  color:#fff
+}
+
+.thankyou-page::before {
+  content: "";
+  position: absolute;
+  background-image: none;
+  display: none;
+}
+
+.thankyou-page .text-thank-you p strong {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.thankyou-page .text-thank-you p small {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
 .header-home::before {
   content: "";
   position: absolute;
@@ -53,6 +80,7 @@ header::before {
   content: "";
   position: absolute;
   background-image: none;
+  display: none;
 }
 
 
@@ -487,7 +515,7 @@ footer .container-fluid {
   font-weight: 600;
 }
 
-.header-drone .btn-drone {
+.btn-drone {
   text-decoration: none;
   background-color: #fff;
   padding: 10px 15px;
@@ -495,7 +523,7 @@ footer .container-fluid {
   transition: 0.5s;
 }
 
-.header-drone .btn-drone:hover {
+.btn-drone:hover {
   background-color: #ca1f25;
   color: #fff;
   transition: 0.5s;
