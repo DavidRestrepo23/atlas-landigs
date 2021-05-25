@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  background-image: url("../img/webinar/slider_1.png");
+  background-image: url("../img/webinar/slider_2.png");
   background-repeat: no-repeat;
   background-position: top;
   height: 860px;
@@ -742,7 +742,7 @@ footer .container-fluid {
     top: -16px;
     right: -17px;
   }
-  
+
   nav ul li {
     list-style: none;
     margin-right: 25px;
