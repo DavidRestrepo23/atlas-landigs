@@ -13,6 +13,22 @@ header {
   position: relative;
 }
 
+.header-ciber-datos {
+  background-image: url("../img/webinar/slider_1.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 860px;
+  position: relative;
+}
+
+.header-home {
+  background-image: url("../img/hogar/background-home.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 860px;
+  position: relative;
+}
+
 header::after {
   content: "";
   position: absolute;
@@ -276,6 +292,10 @@ nav ul li a {
   right: 0;
   left: 0;
   bottom: -25px;
+}
+
+.hs-form-iframe {
+  width: 100% !important;
 }
 
 .section-3 .item-box img {
