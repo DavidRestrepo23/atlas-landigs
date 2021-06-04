@@ -255,16 +255,25 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7dc20d55be.js" crossorigin="anonymous"></script>
     <script>
-        $("#case-one").click(() => {
+        $("#case-one").mouseenter(() => {
+            $(".case-one-heading").toggleClass('d-none');
+            $("#case-one-text").toggleClass('d-none');
+        }).mouseleave(()=>{
             $(".case-one-heading").toggleClass('d-none');
             $("#case-one-text").toggleClass('d-none');
         });
-        $("#case-two").click(() => {
+        $("#case-two").mouseenter(() => {
+            $(".case-two-heading").toggleClass('d-none');
+            $("#case-two-text").toggleClass('d-none');
+        }).mouseleave(()=>{
             $(".case-two-heading").toggleClass('d-none');
             $("#case-two-text").toggleClass('d-none');
         });
 
-        $("#case-three").click(() => {
+        $("#case-three").mouseenter(() => {
+            $(".case-three-heading").toggleClass('d-none');
+            $("#case-three-text").toggleClass('d-none');
+        }).mouseleave(()=>{
             $(".case-three-heading").toggleClass('d-none');
             $("#case-three-text").toggleClass('d-none');
         });
