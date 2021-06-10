@@ -378,7 +378,7 @@ nav ul li a {
 footer .container-fluid {
   background-image: url("../img/webinar/footer.png");
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   width: 100%;
   height: 275px;
 }
@@ -507,7 +507,7 @@ footer .container-fluid {
 .redis-section-3 {
   background-image: url("../img/webinar/graphic.png");
   background-repeat: no-repeat;
-  background-position: inherit;
+  background-position: center;
   height: 850px;
   color: #fff;
 }
@@ -593,7 +593,11 @@ footer .container-fluid {
 }
 
 .carousel-inner .carousel-item .carousel-item-img {
-  width: 520px;
+  width: 120px;
+}
+
+.box-slider {
+  background-color: #197fdc;
 }
 
 .carousel-indicators {
