@@ -38,6 +38,14 @@ header {
   position: relative;
 }
 
+.header-vigilancia {
+  background-image: url("../img/vigilancia/Background_Slider.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 860px;
+  position: relative;
+}
+
 header::after {
   content: "";
   position: absolute;
@@ -67,7 +75,7 @@ header::before {
   background-position: right;
   height: 1143px;
   position: relative;
-  color:#fff
+  color: #fff;
 }
 
 .wp-action {
@@ -94,7 +102,6 @@ header::before {
   font-weight: 500;
 }
 
-
 .header-home::before {
   content: "";
   position: absolute;
@@ -114,6 +121,12 @@ header::before {
   display: none;
 }
 
+.header-vigilancia::before {
+  content: "";
+  position: absolute;
+  background-image: none;
+  display: none;
+}
 
 .header-redis::before {
   content: "";
@@ -136,7 +149,7 @@ header::before {
   height: 450px;
   background-size: contain;
   background-repeat: no-repeat;
-  right:-75px;
+  right: -75px;
 }
 
 .section-top {
@@ -173,6 +186,8 @@ header .text-header p {
 
 header .text-header .header-home-text {
   font-size: 17px;
+  line-height: 30px;
+  font-weight: 600;
 }
 
 header .text-header .header-home-text.text {
@@ -494,7 +509,7 @@ footer .container-fluid {
   border-radius: 15px;
 }
 
-.home-section-3 .home-item-box .item-box-card h5{
+.home-section-3 .home-item-box .item-box-card h5 {
   margin: 0;
 }
 
@@ -858,4 +873,103 @@ footer .container-fluid {
   .home-section-3 .home-item-box .item-box-card {
     width: 100%;
   }
+}
+
+.services-tabs .nav-tabs {
+  justify-content: space-evenly;
+}
+
+.services-tabs .nav-tabs .nav-item button {
+  font-size: 18px;
+  font-weight: 600;
+  color: #c1c1c1;
+}
+
+.services-tabs .nav-tabs .nav-link.active {
+  border-color: inherit;
+  border: inherit;
+  color: #ca1f25;
+  position: relative;
+}
+
+.services-tabs .nav-tabs .nav-link.home-tab {
+  position: relative;
+}
+
+.services-tabs .nav-tabs .nav-link.profile-tab {
+  position: relative;
+}
+
+.services-tabs .nav-tabs .nav-link.home-tab::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/vigilancia/alerta-de-fraude_Off.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 34px;
+  left: -19px;
+  top: 2px;
+}
+
+.services-tabs .nav-tabs .nav-link.home-tab.active::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/vigilancia/alerta-de-fraude_On.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 34px;
+  left: -19px;
+  top: 2px;
+}
+
+.services-tabs .nav-tabs .nav-link.profile-tab::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/vigilancia/cliente_off.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 34px;
+  left: -19px;
+  top: 2px;
+}
+
+.services-tabs .nav-tabs .nav-link.profile-tab.active::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/vigilancia/cliente_On.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 34px;
+  left: -19px;
+  top: 2px;
+}
+
+.services-tabs .nav-tabs .nav-link.home-tab.active::after {
+  content: "";
+  position: absolute;
+  width: 530px;
+  height: 4px;
+  background-color: #ca1f25;
+  bottom: -2px;
+  left: -173px;
+}
+
+
+.services-tabs .nav-tabs .nav-link.profile-tab.active::after {
+  content: "";
+  position: absolute;
+  width: 676px;
+  height: 4px;
+  background-color: #ca1f25;
+  bottom: -2px;
+  left: -42px;
+}
+
+
+.form-vigilancia {
+  background-image: url("../img/vigilancia/Background_Formulario.png");
+  background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    height: 643px;
 }
