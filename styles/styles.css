@@ -973,7 +973,8 @@ footer .container-fluid {
 .form-vigilancia {
   background-image: url("../img/vigilancia/Background_Formulario.png");
   background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: top;
+    background-size: cover;
     width: 100%;
-    height: 643px;
+    height: 900px;
 }
