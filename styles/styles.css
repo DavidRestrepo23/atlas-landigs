@@ -706,7 +706,7 @@ footer .container-fluid {
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: #9A004C !important;
+  background-color: #ca1f25 !important;
   color: #fff !important;
 }
 
@@ -893,7 +893,7 @@ footer .container-fluid {
 .services-tabs .nav-tabs .nav-link.active {
   border-color: inherit;
   border: inherit;
-  color: #9A004C;
+  color: #ca1f25;
   position: relative;
 }
 
@@ -954,7 +954,7 @@ footer .container-fluid {
   position: absolute;
   width: 500px;
   height: 4px;
-  background-color: #9A004C;
+  background-color: #ca1f25;
   bottom: -2px;
   left: -173px;
 }
@@ -965,7 +965,7 @@ footer .container-fluid {
   position: absolute;
   width: 676px;
   height: 4px;
-  background-color: #9A004C;
+  background-color: #ca1f25;
   bottom: -2px;
   left: -42px;
 }
